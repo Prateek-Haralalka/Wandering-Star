@@ -72,8 +72,41 @@ h1:hover {
 
 .container	{
 	font-size: 18px;
-	width: 1300px;
+	width: 1200px;
 	margin: auto;
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+    }
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+   }
+}
+
+.card-pink {
+	background-color: #F8B195;
+	width: 300px;
+	height: 1650px;
+	border-radius: 8px;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.card-pink h2 {
+	font-family: 'Sacramento', cursive;
+	font-size: 30px;
 }
 
 .cards {
@@ -81,7 +114,7 @@ h1:hover {
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .cards {
     grid-template-columns: 1fr;
   }
@@ -89,20 +122,6 @@ h1:hover {
   .card-pink {
     width: auto;
     }
-}
-.card-pink {
-	background-color: #F8B195;
-	width: 400px;
-	height: 1400px;
-	border-radius: 8px;
-	font-size: 18px;
-	padding: 10px;
-	margin: auto;
-}
-
-.card-pink h2 {
-	font-family: 'Sacramento', cursive;
-	font-size: 30px;
 }
 
 .footer {
