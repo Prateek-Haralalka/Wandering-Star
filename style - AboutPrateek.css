@@ -81,6 +81,15 @@ h1:hover {
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (max-width: 1300px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-pink {
+    width: auto;
+    }
+}
 .card-pink {
 	background-color: #F8B195;
 	width: 400px;
