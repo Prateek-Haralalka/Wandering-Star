@@ -101,7 +101,7 @@ h1:hover {
 	border-radius: 8px;
 	font-size: 18px;
 	padding: 10px;
-	margin: 10px auto;
+	margin: 0 10 0 10;
 }
 
 .card-pink h2 {
