@@ -114,14 +114,8 @@ h2:hover {
   .card-pink {
   width: 450px;
   height: 450px;
-  margin: 10 auto;
+  margin: 10px auto;
   }  
-  .card-pink img {
-  width: 300px;
-  height: 300px;
-  object-fit: contain;
-  border-radius: 4px;
-  }
 }
 
 .footer {
