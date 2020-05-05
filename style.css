@@ -112,8 +112,9 @@ h2:hover {
     grid-template-columns: 1fr;
   }
   .card-pink {
-  width: 300px;
+  width: 450px;
   height: 450px;
+  margin: 10 auto;
   }  
 }
 
