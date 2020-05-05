@@ -111,10 +111,6 @@ h2:hover {
   .cards {
     grid-template-columns: 1fr;
   }
-  
-  .card-pink {
-    width: auto;
-  }
 }
 
 .footer {
