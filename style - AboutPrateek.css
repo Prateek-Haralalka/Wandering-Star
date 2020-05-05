@@ -72,7 +72,7 @@ h1:hover {
 
 .container	{
 	font-size: 18px;
-	width: 1200px;
+	width: 1300px;
 	margin: auto;
 }
 
@@ -88,20 +88,20 @@ h1:hover {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .container {
-    width: 1000px;
+    width: 1300px;
    }
 }
 
 .card-pink {
 	background-color: #F8B195;
-	width: 300px;
-	height: 1650px;
+	width: 350px;
+	height: 1400px;
 	border-radius: 8px;
 	font-size: 18px;
 	padding: 15px;
-	margin: auto;
+	margin: 10px auto;
 }
 
 .card-pink h2 {
@@ -120,8 +120,9 @@ h1:hover {
   }
   
   .card-pink {
-	  width: auto;
+	  width: 350px;
 	  height: auto;
+	  margin: 10px auto;
     }
 }
 
